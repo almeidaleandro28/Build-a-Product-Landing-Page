@@ -1,5 +1,5 @@
 :root {
-  --bg-color: ;
+  --bg-color: #73648A;
   --color-white: #ffffff;
 }
 
@@ -10,10 +10,33 @@ body, html {
 }
 
 /* header */
+#header {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--bg-color);
+}
 
 /* header logo */
 .header-logo #header-img {
   width: 46px;
   height: 46px;
 }
+
+/* menu */
+#nav-bar {
+  width: 50%;
+}
+#nav-bar {} #nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-links .nav-link {
+  list-style: none;
+}
+#nav-links .nav-link a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+
 
