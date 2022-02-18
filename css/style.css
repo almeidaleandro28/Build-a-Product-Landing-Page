@@ -83,18 +83,36 @@ body, html {
 /* section plan */
 #plan {
   background-color: var(--bg-secudary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  
+  
+}
+
+#plan h2 {
+  margin: 0;
+  text-align: center;
 }
 
 #plan .plan-div {
-
+  border: 3px solid var(--color-white);
+  display: inline-block;
+ 
 }
 
-#plan .plan-div h3 { }
-#plan .plan-div p {}
-#plan .plan-div button {}
+#plan .plan-div h3 { 
+  text-align: center;
+}
+#plan .plan-div p {
+  margin: 0;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#plan .plan-div button {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  
+}
 
 
 
