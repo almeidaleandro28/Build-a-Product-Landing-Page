@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,700&display=swap');
 :root {
   --bg-color: #73648A;
+  --bg-secudary: #E8C04A;
   --color-white: #ffffff;
   --font-primary: 'Poppins', sans-serif;
   --weight-primary: 300;
@@ -57,9 +58,7 @@ body, html {
 }
 #about #video {
   width: 50%;
-  
-  display: flex;
-  
+  display: flex;  
 }
 
 #about #video iframe {
@@ -79,8 +78,29 @@ body, html {
   font-family: var(--font-primary);
   font-weight: var(--weight-primary);
   text-align: justify;
+}
+
+/* section plan */
+#plan {
+  background-color: var(--bg-secudary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#plan .plan-div {
 
 }
+
+#plan .plan-div h3 { }
+#plan .plan-div p {}
+#plan .plan-div button {}
+
+
+
+
+
+
 
 
 
