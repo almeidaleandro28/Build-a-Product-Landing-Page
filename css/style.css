@@ -8,8 +8,14 @@
   --bg-color: #73648A;
   --bg-secudary: #E8C04A;
   --color-white: #ffffff;
+  --font-line-height-space: 1.5;
+  --font-line-height-compact: 1.2;
   --font-primary: 'Poppins', sans-serif;
-  --weight-primary: 300;
+  --font-secondary: 'Roboto', sans-serif;
+  --font-weight-bold:  700;
+  --font-weight-semibold: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
 
 }
 
@@ -75,6 +81,7 @@ body, html {
 #about .about h1 {
   color: var(--color-white);
   font-family: var(--font-primary);
+  font-size: 2em;
 }
 
 #about .about p {
