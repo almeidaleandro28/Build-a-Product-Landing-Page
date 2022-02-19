@@ -83,37 +83,63 @@ body, html {
 /* section plan */
 #plan {
   background-color: var(--bg-secudary);
-  
-  
 }
 
-#plan h2 {
-  margin: 0;
+#plan .plan-header {
   text-align: center;
 }
-
-#plan .plan-div {
-  border: 3px solid var(--color-white);
-  display: inline-block;
- 
-}
-
-#plan .plan-div h3 { 
-  text-align: center;
-}
-#plan .plan-div p {
+#plan .plan-header h2 {
+  font-family: var(--font-primary);
   margin: 0;
-  padding-bottom: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-#plan .plan-div button {
-  display: block;
+#plan .plan-aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#plan .plan-aside .p  lan-div {
+border: 2px solid   var(--color-white);
+} 
+#plan .plan-aside .p  lan-div  h3 {
+text-align: center  ;
+} 
+#plan .plan-aside .p  lan-div  p {}
+#plan .plan-aside .p  lan-div  button {
+display: block; 
+margin: 0 auto; 
+} 
+
+/* section contact  */
+.contact {
+  background-color: var(--bg-color);
+  
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  padding: 0;
-  
+  height: auto;
+  width: 70%;
 }
+.contact form label {
 
+}
+.contact form input{
+  width: 100%;
+}
+.contact form textarea {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+.contact form #submit {
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 700;
+}
 
 
 
