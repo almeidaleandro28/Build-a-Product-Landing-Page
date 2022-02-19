@@ -99,16 +99,22 @@ body, html {
   flex-direction: row;
   justify-content: space-around;
 }
-#plan .plan-aside .p  lan-div {
-border: 2px solid   var(--color-white);
+#plan .plan-aside .plan-div {
+  border: 2px solid   var(--color-white);
 } 
-#plan .plan-aside .p  lan-div  h3 {
-text-align: center  ;
+#plan .plan-aside .plan-div  h3 {
+  text-align: center;
 } 
-#plan .plan-aside .p  lan-div  p {}
-#plan .plan-aside .p  lan-div  button {
-display: block; 
-margin: 0 auto; 
+#plan .plan-aside .plan-div  p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#plan .plan-aside .plan-div  button {
+  display: block; 
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px auto; 
 } 
 
 /* section contact  */
