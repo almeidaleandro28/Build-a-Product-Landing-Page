@@ -12,10 +12,14 @@
   --font-line-height-compact: 1.2;
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Roboto', sans-serif;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.5rem;
   --font-weight-bold:  700;
   --font-weight-semibold: 500;
   --font-weight-regular: 400;
   --font-weight-light: 300;
+  --letter-spacing-bt: 1.25;
 
 }
 
@@ -81,12 +85,13 @@ body, html {
 #about .about h1 {
   color: var(--color-white);
   font-family: var(--font-primary);
-  font-size: 2em;
+  font-size: var(--font-size-h1);
 }
 
 #about .about p {
-  font-family: var(--font-primary);
-  font-weight: var(--weight-primary);
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-regular);
   text-align: justify;
 }
 
@@ -100,6 +105,7 @@ body, html {
 }
 #plan .plan-header h2 {
   font-family: var(--font-primary);
+  font-size: var(--font-size-h2);
   margin: 0;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -113,9 +119,12 @@ body, html {
   border: 2px solid   var(--color-white);
 } 
 #plan .plan-aside .plan-div  h3 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h3);
   text-align: center;
 } 
 #plan .plan-aside .plan-div  p {
+  font-family: var(--font-secondary);
   margin: 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -123,8 +132,10 @@ body, html {
 #plan .plan-aside .plan-div  button {
   display: block; 
   border-radius: 5px;
-  padding: 5px 10px 5px 10px;
+  letter-spacing: var(--letter-spacing-bt);
   margin: 10px auto; 
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
 } 
 
 /* section contact  */
@@ -140,21 +151,29 @@ body, html {
   width: 70%;
 }
 .contact form label {
+  color: var(--color-white);
+  font-family: var(--font-secondary);
 
 }
 .contact form input{
   width: 100%;
+  max-width: 1200px;
 }
 .contact form textarea {
   margin-bottom: 5px;
   margin-top: 5px;
+  max-width: 1200px;
   width: 100%;
 }
 .contact form #submit {
   border-radius: 5px;
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-bt);
   padding-bottom: 10px;
   padding-top: 10px;
-  font-weight: 700;
+  text-transform: uppercase;
+  
 }
 
 
