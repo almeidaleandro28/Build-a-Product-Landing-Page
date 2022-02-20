@@ -81,7 +81,7 @@ body, html {
 }
 
 #about .about {
-  width: 40%
+  width: 40%;
 }
 #about .about h1 {
   color: var(--color-white);
@@ -118,6 +118,7 @@ body, html {
 }
 #plan .plan-aside .plan-div {
   border: 2px solid var(--color-white);
+  margin-bottom: 10px;
 } 
 #plan .plan-aside .plan-div  h3 {
   font-family: var(--font-primary);
@@ -167,7 +168,6 @@ body, html {
   margin-bottom: 5px;
   margin-top: 5px;
   max-width: 1000px;
- 
   width: 100%;
 }
 .contact form #submit {
@@ -182,12 +182,6 @@ body, html {
 }
 
 
-
-
-
-
-
-
 /* media query */
 @media screen and ( max-width: 768px ) {
   #about {
@@ -197,7 +191,7 @@ body, html {
   }
 
   #about #video {
-    border: 1px solid white;
+    border: 1px solid var(--color-white);
     margin-top: 0.75em;
     margin-bottom: 0.75em;
     width: 80%;
