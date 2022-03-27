@@ -106,7 +106,7 @@ body, html {
   color: var(--color-white);
   font-family: var(--font-secondary);
   font-weight: var(--font-weight-regular);
-  text-align: justify;
+  line-height: 2.0;
 }
 
 /* section plan */
