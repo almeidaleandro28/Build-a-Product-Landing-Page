@@ -75,6 +75,7 @@ body, html {
   background-color: var(--bg-color);
   display: flex;
   justify-content: space-around;
+  min-width: 336px;
   text-justify: auto;
 
 }
@@ -108,6 +109,7 @@ body, html {
 /* section plan */
 #plan {
   background-color: var(--bg-secudary);
+  min-width: 336px;
 }
 
 #plan .plan-header {
@@ -158,17 +160,19 @@ body, html {
 /* section contact  */
 .contact {
   background-color: var(--bg-color);
+  min-width: 336px;
   
 }
 .contact form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: auto;
-  margin: 0 auto;
-  padding-top: 10px;
-  width: 100%;
+  justify-content: center;
   max-width: 960px;
+  margin: 0 auto;
+  min-width: 336px;
+  padding-top: 10px;
+  width: 50%;
  
 }
 
